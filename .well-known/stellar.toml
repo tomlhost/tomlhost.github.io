@@ -1,0 +1,17 @@
+FEDERATION_SERVER="https://api.stellar.org/federation"
+
+ACCOUNTS=[""]
+
+[DOCUMENTATION]
+ORG_NAME=""
+ORG_URL=""
+ORG_LOGO=""
+
+[[CURRENCIES]]
+code=""
+issuer=""
+status="live"
+name=""
+desc=""
+display_decimals=7
+image=""
