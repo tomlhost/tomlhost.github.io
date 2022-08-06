@@ -13,6 +13,7 @@ Allow: /directory/
 Allow: /about/
 Allow: /privacy/
 Allow: /contact/
+Allow: /tutorial/
 Allow: /sitemap/
 
 Sitemap: https://toml.host/sitemap.xml
