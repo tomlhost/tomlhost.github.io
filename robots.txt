@@ -8,10 +8,11 @@ Disallow: /_config.yml
 Disallow: /browserconfig.xml
 Disallow: /manifest.json
 Allow: /
+Allow: /investor/
 Allow: /directory/
 Allow: /about/
 Allow: /privacy/
-Allow: /sitemap/
 Allow: /contact/
+Allow: /sitemap/
 
 Sitemap: https://toml.host/sitemap.xml
