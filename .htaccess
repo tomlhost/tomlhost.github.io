@@ -1,1 +1,9 @@
-Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Origin "*" 
+
+<FilesMatch "\.(xml|js|css)$"> 
+Header set Cache-Control "public, must-revalidate, max-age=2592000" 
+</FilesMatch> 
+
+<FilesMatch "\.(woff2|webp|toml|png|json)$"> 
+Header set Cache-Control "public, must-revalidate, max-age=31536000" 
+</FilesMatch> 
